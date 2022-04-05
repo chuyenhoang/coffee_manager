@@ -1,0 +1,9 @@
+còn: 
+    bán hàng: thêm, sửa, xóa đơn hàng, danh sách đơn mua
+    kho (chuyến): 
+    + nguyên vật liệu:
+        danh sách(account_list), thêm, sửa (register), xóa 
+    + nhà cung cấp: 
+        danh sách(account_list), thêm, sửa (register), xóa 
+    sản phẩm : thêm, sửa, xóa sp; thêm, sửa, xóa loại sp
+
