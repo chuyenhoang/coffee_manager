@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <link rel="stylesheet" href="css/edit_account.css">
 </head>
 
 <body>
@@ -171,185 +173,80 @@
     <!-- Hero Section Begin -->
     <section class="hero hero-normal">
         <div class="container">
-            <div class="row" style="margin: 40px 0px 40px 0px">
+            <div class="row">
                 <div class="col-lg-3">
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>Chọn loại tài khoản</span>
+                            <span>All departments</span>
                         </div>
                         <ul>
-                            <li><a href="./account_list.html">Tất cả</a></li>
-                            <li><a href="./account_list.html?roleId=1">Khách hàng</a></li>
-                            <li><a href="./account_list.html?roleId=2">Nhân viên</a></li>
+                            <li><a href="#">Fresh Meat</a></li>
+                            <li><a href="#">Vegetables</a></li>
+                            <li><a href="#">Fruit & Nut Gifts</a></li>
+                            <li><a href="#">Fresh Berries</a></li>
+                            <li><a href="#">Ocean Foods</a></li>
+                            <li><a href="#">Butter & Eggs</a></li>
+                            <li><a href="#">Fastfood</a></li>
+                            <li><a href="#">Fresh Onion</a></li>
+                            <li><a href="#">Papayaya & Crisps</a></li>
+                            <li><a href="#">Oatmeal</a></li>
+                            <li><a href="#">Fresh Bananas</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-9">
                     <div class="hero__search">
                         <div class="hero__search__form">
-                            <form action="#" method="post">
-                                <input type="text" placeholder="Nhập nội dung tìm kiếm?" name="txt-search">
-                                <button type="submit" class="site-btn">TÌM KIẾM</button>
+                            <form action="#">
+                                <div class="hero__search__categories">
+                                    All Categories
+                                    <span class="arrow_carrot-down"></span>
+                                </div>
+                                <input type="text" placeholder="What do yo u need?">
+                                <button type="submit" class="site-btn">SEARCH</button>
                             </form>
                         </div>
-                        <div>
-                            <a href="./register.html" class="site-btn" name="btn-create" style="margin-left: 30px; ;height: 50px;">Thêm</a>
+                        <div class="hero__search__phone">
+                            <div class="hero__search__phone__icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="hero__search__phone__text">
+                                <h5>+65 11.188.888</h5>
+                                <span>support 24/7 time</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <h2 style="text-align: center;">Danh sách tài khoản</h2>
         </div>
     </section>
     <!-- Hero Section End -->
 
-    <!-- Shoping Cart Section Begin -->
-    <section class="shoping-cart spad" style="padding-top: 30px;">
+    <!-- Edit Section Begin -->
+    <section class="edit">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="shoping__cart__table">
-                        <table class="table table-hover">
-                            <tr>
-                                <th>Id</th>
-                                <th>Họ tên</th>
-                                <th>Giới tính</th>
-                                <th>Điện thoại</th>
-                                <th>Địa chỉ</th>
-                                <th></th>
-                                <th></th>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Huyền</td>
-                                <td>Nữ</td>
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
-                                <td>
-                                    <a href="./edit_account.html?id=1">Sửa</a>
-                                </td>
-                                <td>
-                                    <a href="./delete_account.html?id=1" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Huyền</td>
-                                <td>Nữ</td>
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
-                                <td>
-                                    <a href="./edit_account.html?id=2">Sửa</a>
-                                </td>
-                                <td>
-                                    <a href="./delete_account.html?id=2" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Huyền</td>
-                                <td>Nữ</td>
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
-                                <td>
-                                    <a href="./edit_account.html?id=3">Sửa</a>
-                                </td>
-                                <td>
-                                    <a href="./delete_account.html?id=3" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Huyền</td>
-                                <td>Nữ</td>
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
-                                <td>
-                                    <a href="./edit_account.html?id=4">Sửa</a>
-                                </td>
-                                <td>
-                                    <a href="./delete_account.html?id=4" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Huyền</td>
-                                <td>Nữ</td>
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
-                                <td>
-                                    <a href="./edit_account.html?id=5">Sửa</a>
-                                </td>
-                                <td>
-                                    <a href="./delete_account.html?id=5" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>Huyền</td>
-                                <td>Nữ</td>
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
-                                <td>
-                                    <a href="./edit_account.html?id=6">Sửa</a>
-                                </td>
-                                <td>
-                                    <a href="./delete_account.html?id=6" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>Huyền</td>
-                                <td>Nữ</td>
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
-                                <td>
-                                    <a href="./edit_account.html?id=7">Sửa</a>
-                                </td>
-                                <td>
-                                    <a href="./delete_account.html?id=7" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>Huyền</td>
-                                <td>Nữ</td>
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
-                                <td>
-                                    <a href="./edit_account.html?id=8">Sửa</a>
-                                </td>
-                                <td>
-                                    <a href="./delete_account.html?id=8" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>9</td>
-                                <td>Huyền</td>
-                                <td>Nữ</td>
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
-                                <td>
-                                    <a href="./edit_account.html?id=9">Sửa</a>
-                                </td>
-                                <td>
-                                    <a href="./delete_account.html?id=9" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="product__pagination">
-                            <a href="#">1</a>
-                            <a href="#">2</a>
-                            <a href="#">3</a>
-                            <a href="#"><i class="fa fa-long-arrow-right"></i></a>
+            <div class="edit__form">
+                <h4>Cập nhật chức vụ:</h4>
+                <form method="POST" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <div class="edit__input">
+                                <p>Tên chức vụ:<span>*</span></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="edit__input">
+                                <input type="text" name="txt_name" value="Khách hàng">
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <button type="submit" class="site-btn" name="btn_edit_account">Cập nhật</button>
+                </form>
             </div>
         </div>
     </section>
-    <!-- Shoping Cart Section End -->
+    <!-- Checkout Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer spad">
@@ -408,9 +305,16 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer__copyright">
-                        <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                        <div class="footer__copyright__text">
+                            <p>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                                template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a
+                                    href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
                         <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
                     </div>
                 </div>
@@ -428,6 +332,7 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+
 
 
 </body>
