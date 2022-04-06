@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <link rel="stylesheet" href="css/edit_account.css">
 </head>
 
 <body>
@@ -171,117 +173,118 @@
     <!-- Hero Section Begin -->
     <section class="hero hero-normal">
         <div class="container">
-            <div class="row" style="margin: 40px 0px 40px 0px">
+            <div class="row">
                 <div class="col-lg-3">
-                    
+                    <div class="hero__categories">
+                        <div class="hero__categories__all">
+                            <i class="fa fa-bars"></i>
+                            <span>All departments</span>
+                        </div>
+                        <ul>
+                            <li><a href="#">Fresh Meat</a></li>
+                            <li><a href="#">Vegetables</a></li>
+                            <li><a href="#">Fruit & Nut Gifts</a></li>
+                            <li><a href="#">Fresh Berries</a></li>
+                            <li><a href="#">Ocean Foods</a></li>
+                            <li><a href="#">Butter & Eggs</a></li>
+                            <li><a href="#">Fastfood</a></li>
+                            <li><a href="#">Fresh Onion</a></li>
+                            <li><a href="#">Papayaya & Crisps</a></li>
+                            <li><a href="#">Oatmeal</a></li>
+                            <li><a href="#">Fresh Bananas</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-lg-9">
                     <div class="hero__search">
                         <div class="hero__search__form">
-                            <form action="#" method="post">
-                                <input type="text" placeholder="Nhập nội dung tìm kiếm?" name="txt-search">
-                                <button type="submit" class="site-btn">TÌM KIẾM</button>
+                            <form action="#">
+                                <div class="hero__search__categories">
+                                    All Categories
+                                    <span class="arrow_carrot-down"></span>
+                                </div>
+                                <input type="text" placeholder="What do yo u need?">
+                                <button type="submit" class="site-btn">SEARCH</button>
                             </form>
                         </div>
-                        <div>
-                            <a href="./providerCreate.html" class="site-btn" name="btn-create" style="margin-left: 30px; ;height: 50px;">Thêm</a>
+                        <div class="hero__search__phone">
+                            <div class="hero__search__phone__icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="hero__search__phone__text">
+                                <h5>+65 11.188.888</h5>
+                                <span>support 24/7 time</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <h2 style="text-align: center;">Danh sách nhà cung cấp</h2>
         </div>
     </section>
     <!-- Hero Section End -->
 
-    <!-- Shoping Cart Section Begin -->
-    <section class="shoping-cart spad" style="padding-top: 30px;">
+    <!-- Edit Section Begin -->
+    <section class="edit">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="shoping__cart__table">
-                        <table class="table table-hover">
-                            <tr>
-                                <th>Id</th>
-                                <th>Tên nhà cung cấp</th>
-                                <th>Điện thoại</th>
-                                <th>Địa chỉ</th>
-                                <th></th>
-                                <th></th>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Nhà cung cấp A</td>             
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
-                                <td>
-                                    <a href="./edit_providers.html">Sửa</a>
-                                </td>
-                                <td>
-                                    <a href="./delete_account.html?id=1" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Nhà cung cấp B</td>             
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
-                                <td>
-                                    <a href="./edit_providers.html?id=2">Sửa</a>
-                                </td>
-                                <td>
-                                    <a href="./delete_account.html?id=2" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Nhà cung cấp C</td>             
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
-                                <td>
-                                    <a href="./edit_providers.html?id=3">Sửa</a>
-                                </td>
-                                <td>
-                                    <a href="./delete_account.html?id=3" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Nhà cung cấp D</td>             
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
-                                <td>
-                                    <a href="./edit_providers.html?id=4">Sửa</a>
-                                </td>
-                                <td>
-                                    <a href="./delete_account.html?id=4" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Nhà cung cấp E</td>             
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
-                                <td>
-                                    <a href="./edit_providers.html?id=5">Sửa</a>
-                                </td>
-                                <td>
-                                    <a href="./delete_account.html?id=5" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="product__pagination">
-                            <a href="#">1</a>
-                            <a href="#">2</a>
-                            <a href="#">3</a>
-                            <a href="#"><i class="fa fa-long-arrow-right"></i></a>
+            <div class="edit__form">
+                <h4>Cập nhập thông tin nhà cung cấp</h4>
+                <form method="POST" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-6">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="edit__input">
+                                        <p>Tên nhà cung cấp:<span>*</span></p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="edit__input">
+                                        <input type="text" name="txt_name" value="Nhà cung cấp A">
+                                    </div>
+                                </div>
+                            </div>        
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="edit__input">
+                                        <p>Số điện thoại:<span>*</span></p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="edit__input">
+                                        <input type="tel" name="txt_phone" value="08...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="edit__input">
+                                        <p>Địa chỉ:<span>*</span></p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="edit__input">
+                                        <input type="text" name="txt_address" value="BN">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <!-- <div class="row"> -->
+                                <div class="col-lg-8">
+                                    <div class="edit_avatar">
+                                        <img src="./img/categories/cat-1.jpg" alt="">
+                                        <label for="img_avatar">Chọn ảnh</label>
+                                        <input type="file" name="txt_avatar" id="img_avatar">
+                                    </div>
+                                </div>
                         </div>
                     </div>
-                </div>
+                    <button type="submit" class="site-btn" name="btn_edit_account">Cập nhật</button>
+                </form>
             </div>
         </div>
     </section>
-    <!-- Shoping Cart Section End -->
+    <!-- Checkout Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer spad">
@@ -361,6 +364,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 
+ 
 
 </body>
 
