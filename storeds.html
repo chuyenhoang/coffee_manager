@@ -176,14 +176,13 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>Chọn loại sản phẩm</span>
+                            <span>Chọn nhà cung cấp</span>
                         </div>
                         <ul>
-                            <li><a href="./account_list.html">Tất cả</a></li>
-                            <li><a href="./account_list.html?categoryId=1">Cà phê ...</a></li>
-                            <li><a href="./account_list.html?categoryId=2">Cà phê ...</a></li>
-                            <li><a href="./account_list.html?categoryId=3">Bánh ngọt</a></li>
-                            <li><a href="./account_list.html?categoryId=4">Đồ ăn vặt</a></li>
+                            <li><a href="./storeds.html"> Tất cả nhà cung cấp </a></li>
+                            <li><a href="./storeds.html?providerId=1"> Nhà cung cấp A </a></li>
+                            <li><a href="./storeds.html?providerId=2"> Nhà cung cấp B </a></li>
+                            <li><a href="./storeds.html?providerId=>"> Nhà cung cấp C </a></li>
                         </ul>
                     </div>
                 </div>
@@ -196,13 +195,12 @@
                             </form>
                         </div>
                         <div>
-                            <a href="./productCreate.html" class="site-btn" name="btn-create"
-                                style="margin-left: 30px; ;height: 50px;">Thêm</a>
+                            <a href="./storedsCreate.html" class="site-btn" name="btn-create" style="margin-left: 30px; ;height: 50px;">Thêm</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <h2 style="text-align: center;">Danh sách các sản phẩm</h2>
+            <h2 style="text-align: center;">Danh sách nguyên liệu</h2>
         </div>
     </section>
     <!-- Hero Section End -->
@@ -216,82 +214,68 @@
                         <table class="table table-hover">
                             <tr>
                                 <th>Id</th>
-                                <th>Loại sản phẩm</th>
-                                <th>Tên sản phẩm</th>
+                                <th>Nhà cung cấp</th>
+                                <th>Tên nguyên liệu</th>
+                                <th>Số lượng</th>
                                 <th>Giá bán</th>
-                                <th>Hình ảnh</th>
-                                <th>Mô tả</th>
-                                <th>Trạng thái</th>
+                                <th>Đơn vị tính </th>
                                 <th></th>
                                 <th></th>
                             </tr>
                             <tr>
                                 <td>1</td>
-                                <td>Cà phê ...</td>
-                                <td>Cà phê X</td>
-                                <td>20 000 VNĐ</td>
+                                <td>Nhà cung cấp A</td>          
+                                <td>coffee</td>
+                                <td>3</td>
+                                <td>20.000VNĐ</td>
+                                <td>Kg</td>
                                 <td>
-                                    <img src="./img/CapheMay/cat-1.jpg" alt="ảnh" width="150px">
-                                </td>
-                                <td width="400px">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, quia minus? Ad
-                                    ipsa neque at, vero id commodi earum, non, reprehenderit corrupti sit blanditiis
-                                    omnis dignissimos iure eveniet architecto maiores!
-                                </td>
-                                <td><a href="./products.html?idState=1"
-                                        onclick="return confirm('Bạn muốn tạm dừng bán sản phẩm')">Đang bán</a></td>
-                                <td>
-                                    <a href="./productEdit.html?id=1">Sửa</a>
+                                    <a href="./storedEdit.html?id=1">Sửa</a>
                                 </td>
                                 <td>
-                                    <a href="./products.html?id=1"
-                                        onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
+                                    <a href="./storeds.html?id=1" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>Cà phê ...</td>
-                                <td>Cà phê Y</td>
-                                <td>30 000 VNĐ</td>
+                                <td>Nhà cung cấp B</td>             
+                                <td>coffee</td>
+                                <td>3</td>
+                                <td>20.000VNĐ</td>
+                                <td>Kg</td>
                                 <td>
-                                    <img src="./img/CapheMay/cat-2.jpg" alt="ảnh" width="150px">
-                                </td>
-                                <td width="400px">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, quia minus? Ad
-                                    ipsa neque at, vero id commodi earum, non, reprehenderit corrupti sit blanditiis
-                                    omnis dignissimos iure eveniet architecto maiores!
-                                </td>
-                                <td><a href="./products.html?idState=2"
-                                        onclick="return confirm('Bạn muốn tạm dừng bán sản phẩm')">Tạm dừng</a></td>
-                                <td>
-                                    <a href="./productEdit.html?id=2">Sửa</a>
+                                    <a href="./storedEdit.html?id=2">Sửa</a>
                                 </td>
                                 <td>
-                                    <a href="./products.html?id=2"
-                                        onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
+                                    <a href="./storeds.html?id=2" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td>Đồ ăn vặt</td>
-                                <td>Đồ ăn vặt X</td>
-                                <td>10 000 VNĐ</td>
+                                <td>Nhà cung cấp C</td>             
+                                <td>coffee</td>
+                                <td>3</td>
+                                <td>20.000VNĐ</td>
+                                <td>Kg</td>
                                 <td>
-                                    <img src="./img/CapheMay/cat-4.jpg" alt="ảnh" width="150px">
-                                </td>
-                                <td width="400px">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, quia minus? Ad
-                                    ipsa neque at, vero id commodi earum, non, reprehenderit corrupti sit blanditiis
-                                    omnis dignissimos iure eveniet architecto maiores!
-                                </td>
-                                <td><a href="./products.html?idState=3"
-                                        onclick="return confirm('Bạn muốn tạm dừng bán sản phẩm')">Đang bán</a></td>
-                                <td>
-                                    <a href="./editProduct.html?id=3">Sửa</a>
+                                    <a href="./storedEdit.html?id=3">Sửa</a>
                                 </td>
                                 <td>
-                                    <a href="./products.html?id=3"
-                                        onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
+                                    <a href="./storeds.html?id=3" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Nhà cung cấp D</td>             
+                                <td>coffee</td>
+                                <td>3</td>
+                                <td>20.000VNĐ</td>
+                                <td>Kg</td>
+                                <td>
+                                    <a href="./storedEdit.html?id=4">Sửa</a>
+                                </td>
+                                <td>
+                                    <a href="./storeds.html?id=4" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
                                 </td>
                             </tr>
                         </table>
@@ -365,16 +349,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer__copyright">
-                        <div class="footer__copyright__text">
-                            <p>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy;
-                                <script>document.write(new Date().getFullYear());</script> All rights reserved | This
-                                template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a
-                                    href="https://colorlib.com" target="_blank">Colorlib</a>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            </p>
-                        </div>
+                        <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
                         <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
                     </div>
                 </div>

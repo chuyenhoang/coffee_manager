@@ -173,19 +173,6 @@
         <div class="container">
             <div class="row" style="margin: 40px 0px 40px 0px">
                 <div class="col-lg-3">
-                    <div class="hero__categories">
-                        <div class="hero__categories__all">
-                            <i class="fa fa-bars"></i>
-                            <span>Chọn loại sản phẩm</span>
-                        </div>
-                        <ul>
-                            <li><a href="./account_list.html">Tất cả</a></li>
-                            <li><a href="./account_list.html?categoryId=1">Cà phê ...</a></li>
-                            <li><a href="./account_list.html?categoryId=2">Cà phê ...</a></li>
-                            <li><a href="./account_list.html?categoryId=3">Bánh ngọt</a></li>
-                            <li><a href="./account_list.html?categoryId=4">Đồ ăn vặt</a></li>
-                        </ul>
-                    </div>
                 </div>
                 <div class="col-lg-9">
                     <div class="hero__search">
@@ -196,13 +183,13 @@
                             </form>
                         </div>
                         <div>
-                            <a href="./productCreate.html" class="site-btn" name="btn-create"
+                            <a href="./categoryCreate.html" class="site-btn" name="btn-create"
                                 style="margin-left: 30px; ;height: 50px;">Thêm</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <h2 style="text-align: center;">Danh sách các sản phẩm</h2>
+            <h2 style="text-align: center;">Danh sách loại sản phẩm</h2>
         </div>
     </section>
     <!-- Hero Section End -->
@@ -211,86 +198,55 @@
     <section class="shoping-cart spad" style="padding-top: 30px;">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-10">
                     <div class="shoping__cart__table">
                         <table class="table table-hover">
                             <tr>
                                 <th>Id</th>
-                                <th>Loại sản phẩm</th>
-                                <th>Tên sản phẩm</th>
-                                <th>Giá bán</th>
+                                <th>Tên loại sản phẩm</th>
                                 <th>Hình ảnh</th>
-                                <th>Mô tả</th>
-                                <th>Trạng thái</th>
                                 <th></th>
                                 <th></th>
                             </tr>
                             <tr>
                                 <td>1</td>
                                 <td>Cà phê ...</td>
-                                <td>Cà phê X</td>
-                                <td>20 000 VNĐ</td>
                                 <td>
                                     <img src="./img/CapheMay/cat-1.jpg" alt="ảnh" width="150px">
                                 </td>
-                                <td width="400px">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, quia minus? Ad
-                                    ipsa neque at, vero id commodi earum, non, reprehenderit corrupti sit blanditiis
-                                    omnis dignissimos iure eveniet architecto maiores!
-                                </td>
-                                <td><a href="./products.html?idState=1"
-                                        onclick="return confirm('Bạn muốn tạm dừng bán sản phẩm')">Đang bán</a></td>
                                 <td>
-                                    <a href="./productEdit.html?id=1">Sửa</a>
+                                    <a href="./categoryEdit.html">Sửa</a>
                                 </td>
                                 <td>
-                                    <a href="./products.html?id=1"
+                                    <a href="./categories.html?id=1"
                                         onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>Cà phê ...</td>
-                                <td>Cà phê Y</td>
-                                <td>30 000 VNĐ</td>
                                 <td>
                                     <img src="./img/CapheMay/cat-2.jpg" alt="ảnh" width="150px">
                                 </td>
-                                <td width="400px">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, quia minus? Ad
-                                    ipsa neque at, vero id commodi earum, non, reprehenderit corrupti sit blanditiis
-                                    omnis dignissimos iure eveniet architecto maiores!
-                                </td>
-                                <td><a href="./products.html?idState=2"
-                                        onclick="return confirm('Bạn muốn tạm dừng bán sản phẩm')">Tạm dừng</a></td>
                                 <td>
-                                    <a href="./productEdit.html?id=2">Sửa</a>
+                                    <a href="./categoryEdit.html">Sửa</a>
                                 </td>
                                 <td>
-                                    <a href="./products.html?id=2"
+                                    <a href="./categories.html?id=2"
                                         onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>Đồ ăn vặt</td>
-                                <td>Đồ ăn vặt X</td>
-                                <td>10 000 VNĐ</td>
                                 <td>
                                     <img src="./img/CapheMay/cat-4.jpg" alt="ảnh" width="150px">
                                 </td>
-                                <td width="400px">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, quia minus? Ad
-                                    ipsa neque at, vero id commodi earum, non, reprehenderit corrupti sit blanditiis
-                                    omnis dignissimos iure eveniet architecto maiores!
-                                </td>
-                                <td><a href="./products.html?idState=3"
-                                        onclick="return confirm('Bạn muốn tạm dừng bán sản phẩm')">Đang bán</a></td>
                                 <td>
-                                    <a href="./editProduct.html?id=3">Sửa</a>
+                                    <a href="./categoryEdit.html">Sửa</a>
                                 </td>
                                 <td>
-                                    <a href="./products.html?id=3"
+                                    <a href="./categories.html?id=1"
                                         onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
                                 </td>
                             </tr>
@@ -392,8 +348,5 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
-
 </body>
-
 </html>
