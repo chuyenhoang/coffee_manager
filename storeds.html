@@ -179,10 +179,10 @@
                             <span>Chọn nhà cung cấp</span>
                         </div>
                         <ul>
-                            <li><a href="./account_list.html"> Tất cả nhà cung cấp </a></li>
-                            <li><a href="./account_list.html"> Nhà cung cấp A </a></li>
-                            <li><a href="./account_list.html"> Nhà cung cấp B </a></li>
-                            <li><a href="./account_list.html"> Nhà cung cấp C </a></li>
+                            <li><a href="./storeds.html"> Tất cả nhà cung cấp </a></li>
+                            <li><a href="./storeds.html?providerId=1"> Nhà cung cấp A </a></li>
+                            <li><a href="./storeds.html?providerId=2"> Nhà cung cấp B </a></li>
+                            <li><a href="./storeds.html?providerId=>"> Nhà cung cấp C </a></li>
                         </ul>
                     </div>
                 </div>
@@ -195,7 +195,7 @@
                             </form>
                         </div>
                         <div>
-                            <a href="./register.html" class="site-btn" name="btn-create" style="margin-left: 30px; ;height: 50px;">Thêm</a>
+                            <a href="./storedsCreate.html" class="site-btn" name="btn-create" style="margin-left: 30px; ;height: 50px;">Thêm</a>
                         </div>
                     </div>
                 </div>
@@ -214,70 +214,68 @@
                         <table class="table table-hover">
                             <tr>
                                 <th>Id</th>
-                                <th>Tên nhà cung cấp</th>
-                                <th>Điện thoại</th>
-                                <th>Địa chỉ</th>
+                                <th>Nhà cung cấp</th>
+                                <th>Tên nguyên liệu</th>
+                                <th>Số lượng</th>
+                                <th>Giá bán</th>
+                                <th>Đơn vị tính </th>
                                 <th></th>
                                 <th></th>
                             </tr>
                             <tr>
                                 <td>1</td>
-                                <td>Nhà cung cấp A</td>             
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
+                                <td>Nhà cung cấp A</td>          
+                                <td>coffee</td>
+                                <td>3</td>
+                                <td>20.000VNĐ</td>
+                                <td>Kg</td>
                                 <td>
-                                    <a href="./edit_account.html?id=1">Sửa</a>
+                                    <a href="./storedEdit.html?id=1">Sửa</a>
                                 </td>
                                 <td>
-                                    <a href="./delete_account.html?id=1" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
+                                    <a href="./storeds.html?id=1" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>Nhà cung cấp B</td>             
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
+                                <td>coffee</td>
+                                <td>3</td>
+                                <td>20.000VNĐ</td>
+                                <td>Kg</td>
                                 <td>
-                                    <a href="./edit_account.html?id=2">Sửa</a>
+                                    <a href="./storedEdit.html?id=2">Sửa</a>
                                 </td>
                                 <td>
-                                    <a href="./delete_account.html?id=2" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
+                                    <a href="./storeds.html?id=2" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>Nhà cung cấp C</td>             
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
+                                <td>coffee</td>
+                                <td>3</td>
+                                <td>20.000VNĐ</td>
+                                <td>Kg</td>
                                 <td>
-                                    <a href="./edit_account.html?id=3">Sửa</a>
+                                    <a href="./storedEdit.html?id=3">Sửa</a>
                                 </td>
                                 <td>
-                                    <a href="./delete_account.html?id=3" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
+                                    <a href="./storeds.html?id=3" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td>Nhà cung cấp D</td>             
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
+                                <td>coffee</td>
+                                <td>3</td>
+                                <td>20.000VNĐ</td>
+                                <td>Kg</td>
                                 <td>
-                                    <a href="./edit_account.html?id=4">Sửa</a>
+                                    <a href="./storedEdit.html?id=4">Sửa</a>
                                 </td>
                                 <td>
-                                    <a href="./delete_account.html?id=4" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Nhà cung cấp E</td>             
-                                <td>09...</td>
-                                <td>Hạp Lĩnh- Bắc Ninh</td>
-                                <td>
-                                    <a href="./edit_account.html?id=5">Sửa</a>
-                                </td>
-                                <td>
-                                    <a href="./delete_account.html?id=5" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
+                                    <a href="./storeds.html?id=4" onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
                                 </td>
                             </tr>
                         </table>
