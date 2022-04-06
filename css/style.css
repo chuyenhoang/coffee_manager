@@ -98,6 +98,7 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
+	color: #000;
 }
 
 ul,
@@ -421,7 +422,7 @@ ol {
 .header__menu ul li {
 	list-style: none;
 	display: inline-block;
-	margin-right: 50px;
+	margin-right: 30px;
 	position: relative;
 }
 
@@ -444,7 +445,7 @@ ol {
 
 .header__menu__dropdown li .header__menu__dropdown2 {
 	position: absolute;
-	left: 158px;
+	left: 150px;
 	top: 50px;
 	background: #222222;
 	width: 160px;
@@ -480,7 +481,7 @@ ol {
 }
 
 .header__menu__dropdown li:hover .header__menu__dropdown2{
-	top: 30px;
+	top: 4px;
 	opacity: 1;
 	visibility: visible;
 }
@@ -611,14 +612,14 @@ ol {
 .hero__categories__all {
 	background: #7fad39;
 	position: relative;
-	padding: 10px 25px 10px 40px;
+	padding: 10px 20px 10px 20px;
 	cursor: pointer;
 }
 
 .hero__categories__all i {
 	font-size: 16px;
 	color: #ffffff;
-	margin-right: 10px;
+	margin-right: 4px;
 }
 
 .hero__categories__all span {
@@ -629,7 +630,7 @@ ol {
 
 .hero__categories__all:after {
 	position: absolute;
-	right: 18px;
+	right: 12px;
 	top: 9px;
 	content: "3";
 	font-family: "ElegantIcons";
@@ -880,7 +881,7 @@ ol {
 }
 
 .featured__item__pic {
-	height: 270px;
+	height: 240px;
 	position: relative;
 	overflow: hidden;
 	background-position: center center;
@@ -1916,6 +1917,10 @@ ol {
 	border-bottom: 1px solid #ebebeb;
 }
 
+.shoping__cart__table table tbody tr td{
+	vertical-align: middle;
+}
+
 .shoping__cart__table table thead th {
 	font-size: 20px;
 	font-weight: 700;
@@ -1928,19 +1933,19 @@ ol {
 }
 
 .shoping__cart__table table tbody tr td {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	border-bottom: 1px solid #ebebeb;
 }
 
 .shoping__cart__table table tbody tr td.shoping__cart__item {
-	width: 630px;
+	width: 450px;
 	text-align: left;
 }
 
 .shoping__cart__table table tbody tr td.shoping__cart__item img {
 	display: inline-block;
-	margin-right: 25px;
+	margin-right: 10px;
 }
 
 .shoping__cart__table table tbody tr td.shoping__cart__item h5 {
@@ -1952,14 +1957,14 @@ ol {
 	font-size: 18px;
 	color: #1c1c1c;
 	font-weight: 700;
-	width: 100px;
+	width: 120px;
 }
 
 .shoping__cart__table table tbody tr td.shoping__cart__total {
 	font-size: 18px;
 	color: #1c1c1c;
 	font-weight: 700;
-	width: 110px;
+	width: 150px;
 }
 
 .shoping__cart__table table tbody tr td.shoping__cart__item__close {

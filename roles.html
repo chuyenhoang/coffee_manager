@@ -21,8 +21,6 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-
-    <link rel="stylesheet" href="css/edit_account.css">
 </head>
 
 <body>
@@ -173,146 +171,82 @@
     <!-- Hero Section Begin -->
     <section class="hero hero-normal">
         <div class="container">
-            <div class="row">
+            <div class="row" style="margin: 40px 0px 40px 0px">
                 <div class="col-lg-3">
-                    <div class="hero__categories">
-                        <div class="hero__categories__all">
-                            <i class="fa fa-bars"></i>
-                            <span>All departments</span>
-                        </div>
-                        <ul>
-                            <li><a href="#">Fresh Meat</a></li>
-                            <li><a href="#">Vegetables</a></li>
-                            <li><a href="#">Fruit & Nut Gifts</a></li>
-                            <li><a href="#">Fresh Berries</a></li>
-                            <li><a href="#">Ocean Foods</a></li>
-                            <li><a href="#">Butter & Eggs</a></li>
-                            <li><a href="#">Fastfood</a></li>
-                            <li><a href="#">Fresh Onion</a></li>
-                            <li><a href="#">Papayaya & Crisps</a></li>
-                            <li><a href="#">Oatmeal</a></li>
-                            <li><a href="#">Fresh Bananas</a></li>
-                        </ul>
-                    </div>
                 </div>
                 <div class="col-lg-9">
                     <div class="hero__search">
                         <div class="hero__search__form">
-                            <form action="#">
-                                <div class="hero__search__categories">
-                                    All Categories
-                                    <span class="arrow_carrot-down"></span>
-                                </div>
-                                <input type="text" placeholder="What do yo u need?">
-                                <button type="submit" class="site-btn">SEARCH</button>
+                            <form action="#" method="post">
+                                <input type="text" placeholder="Nhập nội dung tìm kiếm?" name="txt-search">
+                                <button type="submit" class="site-btn">TÌM KIẾM</button>
                             </form>
                         </div>
-                        <div class="hero__search__phone">
-                            <div class="hero__search__phone__icon">
-                                <i class="fa fa-phone"></i>
-                            </div>
-                            <div class="hero__search__phone__text">
-                                <h5>+65 11.188.888</h5>
-                                <span>support 24/7 time</span>
-                            </div>
+                        <div>
+                            <a href="./categoryCreate.html" class="site-btn" name="btn-create"
+                                style="margin-left: 30px; ;height: 50px;">Thêm</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <h2 style="text-align: center;">Danh sách các chức vụ</h2>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Shoping Cart Section Begin -->
+    <section class="shoping-cart spad" style="padding-top: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="shoping__cart__table">
+                        <table class="table table-hover">
+                            <tr>
+                                <th>Id</th>
+                                <th>Tên chức vụ</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Admin</td>
+                                <td>
+                                    <a href="./roleEdit.html?id=1">Sửa</a>
+                                </td>
+                                <td>
+                                    <a href="./roles.html?id=1"
+                                        onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Khách hàng</td>
+                                <td>
+                                    <a href="./roleEdit.html?id=2">Sửa</a>
+                                </td>
+                                <td>
+                                    <a href="./roles.html?id=2"
+                                        onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Nhân viên pha chế</td>
+                                <td>
+                                    <a href="./roleEdit.html?id=3">Sửa</a>
+                                </td>
+                                <td>
+                                    <a href="./roles.html?id=3"
+                                        onclick="return confirm('Bạn có muốn xóa?')">Xóa</a>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Hero Section End -->
-
-    <!-- Edit Section Begin -->
-    <section class="edit">
-        <div class="container">
-            <div class="edit__form">
-                <h4>Cập nhập thông tin</h4>
-                <form method="POST" enctype="multipart/form-data">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-6">
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="edit__input">
-                                        <p>Họ tên:<span>*</span></p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-8">
-                                    <div class="edit__input">
-                                        <input type="text" name="txt_name" value="Nguyễn Ngọc Huyền">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="edit__input">
-                                        <p>Giới tính:</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2">
-                                    <input type="radio" name="gender" value="1" checked> Nữ
-                                </div>
-                                <div class="col-lg-2">
-                                    <input type="radio" name="gender" value="0"> Nam
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="edit__input">
-                                        <p>Số điện thoại:<span>*</span></p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-8">
-                                    <div class="edit__input">
-                                        <input type="tel" name="txt_phone" value="08...">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="edit__input">
-                                        <p>Địa chỉ:<span>*</span></p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-8">
-                                    <div class="edit__input">
-                                        <input type="text" name="txt_address" value="BN">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="edit__input">
-                                        <p>Vai trò: <span>*</span></p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                                        <option>Chọn</option>
-                                        <option value="1" selected>Khách hàng</option>
-                                        <option value="2">Nhân viên bán hàng</option>
-                                        <option value="3">Nhân viên kho</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <!-- <div class="row"> -->
-                                <div class="col-lg-8">
-                                    <div class="edit_avatar">
-                                        <img src="./img/categories/cat-1.jpg" alt="">
-                                        <label for="img_avatar">Chọn ảnh</label>
-                                        <input type="file" name="txt_avatar" id="img_avatar">
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                    <button type="submit" class="site-btn" name="btn_edit_account">Chỉnh sửa</button>
-                </form>
-            </div>
-        </div>
-    </section>
-    <!-- Checkout Section End -->
+    <!-- Shoping Cart Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer spad">
@@ -371,9 +305,16 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer__copyright">
-                        <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                        <div class="footer__copyright__text">
+                            <p>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                                template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a
+                                    href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
                         <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
                     </div>
                 </div>
@@ -391,9 +332,5 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
- 
-
 </body>
-
 </html>
