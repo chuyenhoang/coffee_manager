@@ -422,7 +422,14 @@ ol {
 .header__menu ul li {
 	list-style: none;
 	display: inline-block;
-	margin-right: 30px;
+	margin-right: 25px;
+	position: relative;
+}
+
+.header__menu .mr-36px ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 35px;
 	position: relative;
 }
 
@@ -517,7 +524,7 @@ ol {
 
 .header__cart {
 	text-align: right;
-	padding: 24px 0;
+	padding: 34px 0;
 }
 
 .header__cart ul {
