@@ -42,7 +42,7 @@
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
-                <li class="active"><a href="#">Trang chủ</a></li>
+                <li class="active"><a href="./contact.php">Trang chủ</a></li>
                 <li>
                     <a href="#">Tài khoản</a>
                     <ul class="header__menu__dropdown">
@@ -65,7 +65,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Kho nguyên liệu</a>
+                    <a href="#">Kho NL</a>
                     <ul class="header__menu__dropdown">
                         <li><a href="./storeds.php">Nguyên liệu</a></li>
                         <li><a href="./providers.php">Nhà cung cấp</a></li>
@@ -124,7 +124,7 @@
                 <div class="col-lg-9">
                     <nav class="header__menu">
                         <ul>
-                            <li class="active"><a href="#">Trang chủ</a></li>
+                            <li class="active"><a href="./contact.php">Trang chủ</a></li>
                             <li>
                                 <a href="#">Tài khoản</a>
                                 <ul class="header__menu__dropdown">
@@ -147,7 +147,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Kho nguyên liệu</a>
+                                <a href="#">Kho NL</a>
                                 <ul class="header__menu__dropdown">
                                     <li><a href="./storeds.php">Nguyên liệu</a></li>
                                     <li><a href="./providers.php">Nhà cung cấp</a></li>
