@@ -1,97 +1,77 @@
-<?php  require_once './headerUser.php' ?>
-<link rel="stylesheet" href="./public/css/register.css">
+<?php  require_once './headerAdmin.php' ?>
+<link rel="stylesheet" href="../public/css/register.css">
+
 <!-- Register Section Begin -->
 <section class="register">
     <div class="container">
         <div class="register__form">
-            <h4>Thêm chương trình giảm giá mới:</h4>
+            <h4>Thêm nguyên liệu </h4>
             <form method="POST">
                 <div class="row">
                     <div class="col-lg-8 col-md-6">
                         <div class="row">
                             <div class="col-lg-3">
                                 <div class="register__input">
-                                    <p>Tiêu đề: <span>*</span></p>
+                                    <p>Tên nguyên liệu:<span>*</span></p>
                                 </div>
                             </div>
                             <div class="col-lg-8">
                                 <div class="register__input">
-                                    <input type="text" name="txt_title">
+                                    <input type="text" name="txt_name">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-3">
                                 <div class="register__input">
-                                    <p>Nội dung: <span>*</span></p>
+                                    <p>Số lượng:<span>*</span></p>
                                 </div>
                             </div>
                             <div class="col-lg-8">
                                 <div class="register__input">
-                                    <textarea name="txt_content" cols="64" rows="5"></textarea>
+                                    <input type="number" name="txt_amount">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-3">
                                 <div class="register__input">
-                                    <p>Hình ảnh: <span>*</span></p>
+                                    <p>Giá bán:<span>*</span></p>
                                 </div>
                             </div>
                             <div class="col-lg-8">
                                 <div class="register__input">
-                                    <input type="file" name="file_image" id="flie_img" style="display: none;">
-                                    <label for="flie_img" style="margin-left: 8px; cursor: pointer;">
-                                        <i class="fa fa-solid fa-image"></i> Chọn ảnh
-                                    </label>
+                                    <input type="number" name="txt_price">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-3">
                                 <div class="register__input">
-                                    <p>Giảm giá (%): <span>*</span></p>
+                                    <p>Đơn vị tính:<span>*</span></p>
                                 </div>
                             </div>
                             <div class="col-lg-8">
                                 <div class="register__input">
-                                    <input type="number" name="txt_sale">
+                                    <input type="text" name="txt_unit">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-3">
-                                <div class="register__input">
-                                    <p>Đơn hàng từ (đ): <span>*</span></p>
+                                <div class="edit__input">
+                                    <p>Nhà cung cấp:<span>*</span></p>
                                 </div>
                             </div>
                             <div class="col-lg-8">
-                                <div class="register__input">
-                                    <input type="number" name="txt_proviso">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <div class="register__input">
-                                    <p>Ngày bắt đầu: </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="register__input">
-                                    <input type="date" name="dateStart">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <div class="register__input">
-                                    <p>Ngày kết thúc: </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="register__input">
-                                    <input type="date" name="dateEnd">
+                                <div class="col-lg-3">
+                                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                        <option selected>Chọn</option>
+                                        <option value="1">Nhà cung cấp A</option>
+                                        <option value="2">Nhà cung cấp B</option>
+                                        <option value="3">Nhà cung cấp C</option>
+                                        <option value="4">Nhà cung cấp D</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
@@ -105,5 +85,4 @@
     </div>
 </section>
 <!-- Checkout Section End -->
-
 <?php require_once './footer.php' ?>
